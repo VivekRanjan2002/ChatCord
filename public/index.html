@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="join-container">
+            <header class="join-header">
+                <h1><i class="fa-sharp fa-solid fa-comments" style="color: #1764e8;"></i> chatCord</h1>
+            </header>
+            <main class="join-main">
+             <form action="chat.html">
+                <div class="form-control">
+                    <label for="username" id="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter Username..." required/>
+                </div>
+                <div class="form-control">
+                    <label for="room" id="room">Select room for chat</label>
+                    <select name="room" id="room">
+                    <option value="JavaScript">Javascript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Scala">Scala</option>
+                    <option value="React">React</option>
+                    </select>
+                </div>
+                <button class="btn" type="submit">Join Chat</button>
+             </form>
+            </main>
+        </div>
+</body>
+</html>
